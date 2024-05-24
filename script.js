@@ -65,4 +65,4 @@ setTimeout(() => {
     const tableData = JSON.stringify(fingerprintData, null, 2).replace(/\]/g, ',\n]')
     const formattedString = tableData.replace(/},/g, '},\n');
     documentData.innerHTML = tableData
-}, 5000)
+}, 10000)
